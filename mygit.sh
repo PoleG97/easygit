@@ -1,8 +1,7 @@
 #!/bin/bash
 
 argumento=$1
-ruta="/mnt/c/Users/jairo/Desktop/Clase/Trabajos/BCI_lab"
-#ruta="/home/kali/documents"
+ruta="/mnt/c/Users/jairo/Desktop/Clase/Trabajos/BCI_lab"    # Cambiar por la ruta desada
 
 function arg_error {
     echo "Debes proporcionar uno de estos argumentos"
