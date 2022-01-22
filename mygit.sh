@@ -5,8 +5,8 @@ ruta="/mnt/c/Users/jairo/Desktop/Clase/Trabajos/BCI_lab"    # Cambiar por la rut
 
 function arg_error {
     echo "Debes proporcionar uno de estos argumentos"
-    echo "nombre.sh startlab"
-    echo "nombre.sh endlab"
+    echo "mygit.sh startlab"
+    echo "mygit.sh endlab"
     exit
 }
 
