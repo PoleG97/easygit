@@ -24,6 +24,17 @@ if [ $# -eq 1 ] ; then
         cd ${ruta}
         rm -R "${ruta}/P_BCI"                               # Borramos toda los archivos repo
 
+    elif [ $1 = "help" ] ; then                             # Ayuda sobre el uso de git
+
+        echo -e "COMO TRABAJAR CON GIT \n"
+        echo "1) Ver los archivos cambiados (pendientes de subir): git status"
+        echo "2) Añadir esos archivos (todos) a la lista para subir: git add *"
+        echo "   > Si quieres subir algunos determinado cambiar * por los nombres a subir"
+        echo "3) Añadir un commint antes de subir los cambios: git commit -m texto"
+        echo "   > Nota: el texto del commit debe ir entre comillas dobles"
+        echo "4) Con el commit hecho, hacemos el push: git push"
+        echo "   > Nota: si queremos el push a una rama concreta ponemos el nombre de la misma al final"
+
     else
         arg_error
     fi
