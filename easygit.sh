@@ -38,12 +38,12 @@ if [ $# -eq 1 ] ; then
     elif [ $1 = "help" ] ; then                             # Ayuda sobre el uso de git
 
         echo -e "COMO TRABAJAR CON GIT \n"
-        echo "1) Ver los archivos cambiados (pendientes de subir): ${blueColour}git status${endColour}"
-        echo "2) Añadir esos archivos (todos) a la lista para subir: ${blueColour}git add *${endColour}"
+        echo -e "1) Ver los archivos cambiados (pendientes de subir): ${blueColour}git status${endColour}"
+        echo -e "2) Añadir esos archivos (todos) a la lista para subir: ${blueColour}git add *${endColour}"
         echo "   > Si quieres subir algunos determinado cambiar * por los nombres a subir"
-        echo "3) Añadir un commint antes de subir los cambios: ${blueColour}git commit -m texto${endColour}"
+        echo -e "3) Añadir un commint antes de subir los cambios: ${blueColour}git commit -m texto${endColour}"
         echo "   > Nota: el texto del commit debe ir entre comillas dobles"
-        echo "4) Con el commit hecho, hacemos el push: ${blueColour}git push${endColour}"
+        echo -e "4) Con el commit hecho, hacemos el push: ${blueColour}git push${endColour}"
         echo "   > Nota: si queremos el push a una rama concreta ponemos el nombre de la misma al final"
 
     else
