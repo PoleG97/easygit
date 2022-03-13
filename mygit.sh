@@ -7,6 +7,7 @@ function arg_error {
     echo "Debes proporcionar uno de estos argumentos"
     echo "mygit.sh startlab"
     echo "mygit.sh endlab"
+    echo "mygit.sh help"
     exit
 }
 
