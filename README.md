@@ -16,6 +16,9 @@ easygit.sh startlab
 ```
 easygit.sh endlab
 ```
+```
+easygit.sh help
+```
 
 El primero de todos, se coloca en la ubicación y clona la repo y el segundo, se encarga de hacer la limpieza
 En este segundo caso nos preguntará 2 veces si queremos borrar, en ambos casos escribimos “yes” y pulsamos ENTER.
