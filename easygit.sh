@@ -11,7 +11,7 @@ turquoiseColour="\e[0;36m\033[1m"
 grayColour="\e[0;37m\033[1m"
 
 argumento=$1
-ruta="/mnt/c/Users/jairo/Desktop/Clase/Trabajos/BCI_lab"    # Cambiar por la ruta desada
+ruta=""    # Cambiar por la ruta desada
 
 function arg_error {
     echo -e "${yellowColour}[*]${endColour}Debes proporcionar uno de estos argumentos"
