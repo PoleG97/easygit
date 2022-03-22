@@ -52,6 +52,19 @@ if [ $# -eq 1 ] ; then
         echo -e "${purpleColour}7)${endColour} Con las ramas acabadas, las juntamos en la rama principal: ${blueColour}git merge${endColour}"
         echo -e "   ${greenColour}> Nota:${endColour} Para esto necesitamos haber cambiado a la main y desde ahí el comando seguido de la rama deseada"
 
+        echo -e "${purpleColour}1)${endColour} Abrimos la rama deseada: ${blueColour}git checkout ${endColour}"
+        echo -e "   ${greenColour}> Nota:${endColour} El nombre de la rama va al final"
+        echo -e "   ${greenColour}> Nota:${endColour} Podemos ver todas las ramas con ${blueColour}git branch ${endColour}"
+        echo -e "   ${greenColour}> Nota:${endColour} Ahora con la rama abierta podemos trabajar tranquilamente en nuestra parte"
+        echo -e "${purpleColour}2)${endColour} Trabajamos con el push y commit como en el anterior"
+        echo -e "${purpleColour}*)${endColour} Creamos una rama: ${blueColour}git branch ${endColour}"
+        echo -e "   ${greenColour}> Nota:${endColour} El nombre de la rama va al final"
+        
+        echo -e "${purpleColour}1)${endColour} Nos posicionamos en la master con: ${blueColour}git checkout master${endColour}"
+        echo -e "${purpleColour}1)${endColour} Pasamos la rama a la rama principal: ${blueColour}git merge${endColour}"
+        echo -e "   ${greenColour}> Nota:${endColour} El nombre de la rama que volvar va al final"
+        echo -e "   ${greenColour}> Nota:${endColour} Podemos añadir un commit al final añadiendo: ${blueColour}-m texto${endColour}"
+        echo -e "   ${greenColour}> Nota:${endColour} El texto del commit debe ir entre comillas dobles"
     else
         arg_error
     fi
