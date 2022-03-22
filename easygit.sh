@@ -45,13 +45,7 @@ if [ $# -eq 1 ] ; then
         echo -e "   ${greenColour}> Nota:${endColour} El texto del commit debe ir entre comillas dobles"
         echo -e "${purpleColour}4)${endColour} Con el commit hecho, hacemos el push: ${blueColour}git push${endColour}"
         echo -e "   ${greenColour}> Nota:${endColour} Si queremos el push a una rama concreta ponemos el nombre de la misma al final"
-        echo -e "${purpleColour}5)${endColour} Creamos una branch para trabajar aislado: ${blueColour}git branch${endColour}"
-        echo -e "   ${greenColour}> Nota:${endColour} Al final determinamos el nombre de la rama a crear"
-        echo -e "${purpleColour}6)${endColour} Nos movemos a la rama deseada: ${blueColour}git checkout${endColour}"
-        echo -e "   ${greenColour}> Nota:${endColour} Al final ponemos el nombre de la rama a al aque movernos"
-        echo -e "${purpleColour}7)${endColour} Con las ramas acabadas, las juntamos en la rama principal: ${blueColour}git merge${endColour}"
-        echo -e "   ${greenColour}> Nota:${endColour} Para esto necesitamos haber cambiado a la main y desde ahí el comando seguido de la rama deseada"
-
+    
         echo -e "${purpleColour}1)${endColour} Abrimos la rama deseada: ${blueColour}git checkout ${endColour}"
         echo -e "   ${greenColour}> Nota:${endColour} El nombre de la rama va al final"
         echo -e "   ${greenColour}> Nota:${endColour} Podemos ver todas las ramas con ${blueColour}git branch ${endColour}"
